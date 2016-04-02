@@ -1,4 +1,5 @@
 Blogger::Application.routes.draw do
+  root to: 'articles#index'
   resources :articles
 # Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
